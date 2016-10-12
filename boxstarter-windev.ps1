@@ -19,6 +19,7 @@ cinst fiddler4
 cinst git.install
 cinst git-credential-winstore
 cinst poshgit
+cinst gittfs
 
 # Microsoft Tools
 cinst dotnet4.5.1
