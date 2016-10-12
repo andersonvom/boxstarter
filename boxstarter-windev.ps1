@@ -1,0 +1,10 @@
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+
+cinst jdk8
+cinst fiddler4
+cinst git
+cinst poshgit
+cinst git-credential-winstore
+
+cinst visualstudio2015professional
+cinst mssqlservermanagementstudio2014express
