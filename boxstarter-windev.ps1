@@ -26,6 +26,7 @@ cinst dotnet4.5.1
 cinst aspnetmvc4.install
 cinst visualstudio2015professional
 cinst mssqlservermanagementstudio2014express
+cinst resharper
 
 cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -AcceptEula
