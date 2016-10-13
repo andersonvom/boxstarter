@@ -2,7 +2,8 @@ Disable-UAC
 
 # Enable Developer Mode & Install Bash
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
-Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-Subsystem-Linux" -All -NoRestart
+# Microsoft-Windows-Subsystem-Linux doesn't seem to be working =(
+# Enable-WindowsOptionalFeature -Online -FeatureName "Microsoft-Windows-Subsystem-Linux" -All -NoRestart
 Enable-WindowsOptionalFeature -Online -FeatureName "TelnetClient" -All -NoRestart
 Enable-WindowsOptionalFeature -Online -FeatureName "NetFx3" -All -NoRestart
 
