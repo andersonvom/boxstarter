@@ -13,7 +13,7 @@ Disable-GameBarTips
 Disable-BingSearch
 
 # Misc Tools
-choco install cygwin --allow-empty-checksum
+# cinst cygwin  # can't seem to make this work
 cinst jdk8
 cinst fiddler4
 cinst git.install
