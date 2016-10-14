@@ -15,6 +15,7 @@ Disable-GameBarTips
 Disable-BingSearch
 
 # Misc Tools
+cinst cygwin
 cinst jdk8
 cinst fiddler4
 cinst git.install
