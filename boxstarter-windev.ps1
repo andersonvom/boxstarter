@@ -1,5 +1,3 @@
-Disable-UAC
-
 # Enable Developer Mode & Install Bash
 reg add "HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\AppModelUnlock" /t REG_DWORD /f /v "AllowDevelopmentWithoutDevLicense" /d "1"
 # Microsoft-Windows-Subsystem-Linux doesn't seem to be working =(
