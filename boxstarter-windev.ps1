@@ -13,7 +13,7 @@ Disable-GameBarTips
 Disable-BingSearch
 
 # Misc Tools
-cinst cygwin --allowEmptyChecksums
+cinst cygwin --allow-empty-checksum
 cinst jdk8
 cinst fiddler4
 cinst git.install
