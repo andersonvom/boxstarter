@@ -20,6 +20,9 @@ cinst git.install
 cinst git-credential-winstore
 cinst gittfs
 cinst notepadplusplus
+cinst nodist
+cinst ConEmu
+cinst visualstudiocode
 
 # Microsoft Tools
 cinst dotnet4.5.1
@@ -28,8 +31,6 @@ cinst visualstudio2015professional
 cinst mssqlservermanagementstudio2014express
 cinst resharper
 cinst stylecop
-cinst nodist
-cinst ConEmu
 
 cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -AcceptEula
