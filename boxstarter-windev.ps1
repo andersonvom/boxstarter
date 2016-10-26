@@ -23,6 +23,8 @@ cinst notepadplusplus
 cinst nodist
 cinst ConEmu
 cinst visualstudiocode
+cinst firefox
+cinst googlechrome
 
 # Microsoft Tools
 cinst dotnet4.5.1
