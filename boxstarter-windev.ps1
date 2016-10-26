@@ -28,6 +28,8 @@ cinst visualstudio2015professional
 cinst mssqlservermanagementstudio2014express
 cinst resharper
 cinst stylecop
+cinst nodist
+cinst ConEmu
 
 cinst IIS-WebServerRole -source windowsfeatures
 Install-WindowsUpdate -AcceptEula
