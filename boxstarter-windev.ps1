@@ -21,6 +21,7 @@ cinst git-credential-winstore
 cinst gittfs
 cinst notepadplusplus
 cinst nodist
+cinst yarn
 cinst ConEmu
 cinst visualstudiocode
 cinst firefox
