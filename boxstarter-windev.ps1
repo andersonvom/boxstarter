@@ -26,6 +26,7 @@ cinst ConEmu
 cinst visualstudiocode
 cinst firefox
 cinst googlechrome
+cinst screenhero
 
 # Microsoft Tools
 cinst dotnet4.5.1
