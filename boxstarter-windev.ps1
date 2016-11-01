@@ -14,6 +14,7 @@ Disable-BingSearch
 
 # Misc Tools
 # cinst cygwin  # can't seem to make this work
+cinst chocolatey
 cinst jdk8
 cinst fiddler4
 cinst git.install
