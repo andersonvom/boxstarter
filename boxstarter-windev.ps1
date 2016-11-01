@@ -21,6 +21,7 @@ cinst git.install
 cinst git-credential-winstore
 cinst gittfs
 cinst notepadplusplus
+cinst vim
 cinst nodist
 cinst yarn
 cinst ConEmu
