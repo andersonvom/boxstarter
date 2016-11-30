@@ -4,8 +4,10 @@ Set-TaskbarOptions -Size Small -Combine Full
 Disable-GameBarTips
 Disable-BingSearch
 
-# Misc Tools
 cinst chocolatey
+choco feature enable -n allowEmptyChecksums
+
+# Misc Tools
 cinst jdk8
 cinst git.install
 cinst git-credential-winstore
