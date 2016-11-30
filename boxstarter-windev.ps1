@@ -5,15 +5,14 @@ Disable-GameBarTips
 Disable-BingSearch
 
 cinst chocolatey
-choco feature enable -n allowEmptyChecksums
 
 # Misc Tools
 cinst jdk8
-cinst git.install
+choco install -y git.install --allowEmptyChecksum
 cinst git-credential-winstore
-cinst gittfs
+choco install -y gittfs --allowEmptyChecksum
 cinst notepadplusplus
-cinst vim
+choco install -y vim --allowEmptyChecksum
 cinst nodist
 cinst yarn
 cinst ConEmu
