@@ -8,11 +8,11 @@ cinst chocolatey
 
 # Misc Tools
 cinst jdk8
-choco install -y git.install --allowEmptyChecksum
+choco install git.install -y --allowEmptyChecksum
 cinst git-credential-winstore
-choco install -y gittfs --allowEmptyChecksum
+choco install gittfs -y --allowEmptyChecksum
 cinst notepadplusplus
-choco install -y vim --allowEmptyChecksum
+choco install vim -y --allowEmptyChecksum
 cinst nodist
 cinst yarn
 cinst ConEmu
